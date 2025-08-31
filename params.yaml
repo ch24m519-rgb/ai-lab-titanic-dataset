@@ -1,0 +1,16 @@
+
+# Hyperparameters for model training.
+# Edit these values to experiment with different model configurations.
+
+LogisticRegression:
+  maxIter: [10, 50]
+  regParam: [0.01, 0.1]
+  elasticNetParam: [0.5, 1.0]
+
+RandomForestClassifier:
+  numTrees: [20, 50]
+  maxDepth: [5, 10]
+
+DecisionTreeClassifier:
+  maxDepth: [3, 5]
+  minInstancesPerNode: [1, 5]
